@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
  */
 public class SignInPage {
   protected WebDriver driver;
-
   // <input name="user_name" type="text" value="">
   private By usernameBy = By.name("user_name");
   // <input name="password" type="password" value="">
@@ -64,4 +63,5 @@ public class SignInPage {
 	LoginPage.java 
 	HomePage.java
 	CheckoutPage.java 
+
 	
